@@ -22,7 +22,7 @@ function WzRecorder(config) {
 
 		// reset any previous data
 		recordedData = [];
-		recordingLength = 0;
+		recordingLength = 15;
 		
 		// webkit audio context shim
 		audioCtx = new (window.AudioContext || window.webkitAudioContext)();
